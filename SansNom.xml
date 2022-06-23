@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpSpool>
+	<mnu_btn_pref>Préférences</mnu_btn_pref>
+	<mnu_btn_stat>Statistiques</mnu_btn_stat>
+	<mnu_btn_jour>Journal</mnu_btn_jour>
+	<mnu_btn_plan>Planification</mnu_btn_plan>
+	<mnu_btn_aide>Aide</mnu_btn_aide>
+	<mnu_btn_admi>Administration</mnu_btn_admi>
+	<mnu_btn_rech>Recherche</mnu_btn_rech>
+	<prf_fld_prf>Préférences de l'application</prf_fld_prf>
+	<prf_lbl_namcr hlp="nom du document à lire">Nom</prf_lbl_namcr>
+	<prf_lbl_cr1>Critère 1</prf_lbl_cr1>
+	<prf_lbl_cr2>Critère 2</prf_lbl_cr2>
+	<prf_lbl_font>Police</prf_lbl_font>
+	<prf_lbl_size>Taille</prf_lbl_size>
+	<prf_lbl_fond>Fond de page</prf_lbl_fond>
+	<prf_lbl_marg>Marges</prf_lbl_marg>
+	<prf_lbl_haut>Haute</prf_lbl_haut>
+	<prf_lbl_gauc>Gauche</prf_lbl_gauc>
+	<prf_lbl_droi>Droite</prf_lbl_droi>
+	<file id="1" txt="lorem">
+		<org>c:\program files\wamp\</org>
+		<dst>\\127.0.0.1\wamp</dst>
+	</file>
+	<file id="2" txt="lorem2">
+		<org>c:\windows\</org> 
+		<dst>d:\sauvegarde</dst>
+	</file>
+</phpSpool>

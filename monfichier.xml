@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myXML>
+<person id="0">
+  <name type="Développeur C++">MARCEL</name>
+  <firstname>Benhur</firstname>
+</person>
+<person id="1">
+  <name type="Développeur C">DOE</name>
+  <firstname>John</firstname></person>
+<person id="2">
+  <name type="Développeur PHP">TAVERNIER</name>
+  <firstname>Bruno</firstname>
+</person>
+</myXML>
