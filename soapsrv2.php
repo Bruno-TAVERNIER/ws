@@ -1,6 +1,5 @@
 <?php
-class MonServeur2 {
-  
+class MonServeur2 { 
   // première fonction pour faire joli
   function hello(string $nom, string $prenom) :string{
     return 'Bonjour ' . $prenom . ' ' .$nom;

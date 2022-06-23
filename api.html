@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>appel API JSON</title>
+</head>
+<body>
+  <div id="result"></div>
+  <div id="result2"></div>
+  <script>
+    /* ajax => XMLHttpRequest => Jquery */
+    fetch('http://localhost/coderbase_it/xml-ws/restsrv2.php?cat=2')
+    .then(function(response) { return response.json()})
+    .then(function(data) { console.log(data);
+      document.getElementById('result').innerHTML = '<h2>' + data[0].nom + '</h2>';
+    });
+    fetch('https://api.frankfurter.app/latest?amount=10&from=USD&to=EUR')
+    .then(function(response2) { return response2.json()})
+    .then(function(data2) { 
+      document.getElementById('result2').innerHTML = '<h2>' + data2.rates.EUR + '</h2>';
+    });
+  </script>
+</body>
+</html>

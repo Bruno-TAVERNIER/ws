@@ -28,20 +28,19 @@ class MonServeur {
   }
 
   /* retour d'un fichier binaire => à encoder en base 64 */
-  function retourFichier(){
+  function retourFichier() :string {
     $image = file_get_contents('images/foo.jpg');
     return base64_encode($image);
   }
 
   /* fonction appel WS2 */
-  function monAmi() {
+  function monAmi() :string {
+    //le serveur est lui même client d'un autre WS
     $options = ['location' => 'http://localhost/coderbase_it/XML-WS/soapsrv2.php',
     'uri' => 'http://localhost/coderbase_it/XML-WS/'];
     $client = new SoapClient(NULL, $options);
-    return $client->hello('Nimes', 'Ano');
+    return $client->hello('Nîmes', 'Ano');
   }
-
-  // function appel WS Meteo externe ou geolocalisation 
 }
 
 // options du serveur SOAP
